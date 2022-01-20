@@ -1,0 +1,30 @@
+
+
+.jumbotron-extend {
+    height: 100vh;
+    position:relative;
+    min-height: 550px;
+    margin-bottom: 600px;
+    background: url(v.jpeg) no-repeat center center;
+    background-size: auto 900px;
+    background-repeat : no-repeat;
+    text-align:center;
+}
+.jumbotron-container {
+    position: relative;
+    top: 55%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.site-name {
+    margin-bottom: 60px;
+    font-family: 'Playfair Display', serif;
+}
+.btn-black {
+    border-radius: 0;
+
+    font-family: 'Avenir', serif;
+}
